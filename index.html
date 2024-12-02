@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Html теги базовая симантика, первый день обучения">
+  <meta name="keywords" content="html, обучения, симантика html">
+  <meta name="robots" content="none">
+
+  <meta name="author" content="Me">
+  <meta name="copyright" content="#">
+  <meta name="address" content="#">
+
+  <meta property="og:local" content="ru_Ru">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="basic html">
+  <meta property="og:description" content="чето там  много текста">
+  <meta property="og:image" content="#">
+  <meta property="og:url" content="#">
+  <meta property="og:site_name" content="bla-bla">
+
+  <title>Header</title>
+
+  <link rel="stylesheet" href="./CSS/styles.css">
+
+  <script defer src="./JS/script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+    integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+  <script defer src="./JS/slick.min.js"></script>
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <div class="container">
+
+
+      <header class="header">
+        <div class="header__container">
+          <a href="#" class="header__logo">
+            <img src="./img/header/logo.svg" alt="logo">
+          </a>
+          <div class="header__menu menu">
+            <nav class="menu__body">
+              <ul class="menu__list">
+                <li class="menu__item"><a href="#" class="menu__link">Home</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Categories</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">My Collection</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Blog</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header__buttons buttons">
+            <button class="buttons__login button button-gray">Login</button>
+            <button class="buttons__sign button button-orange">Sign Up</button>
+          </div>
+        </div>
+      </header>
+
+
+      <main class="main">
+        <div class="main__container">
+
+          <section class="main__header-top header-top">
+            <div class="header-top__content content">
+              <h1 class="content__title">Awesome tools for
+                Designer & Developer<span>.</span></h1>
+              <p class="content__text">Antool is a web collection of information on paid or free Design and Development
+                tools</p>
+              <form class="content__search search" action="#" method="get">
+                <div class="search__line-block">
+                  <img src="./img/bottomHeader/search.svg" alt="search">
+                  <input class="search__line" name="seaech" placeholder="find more than 430+ tools..." type="search">
+                </div>
+                <button class="search__button button button-orange" type="submit">Search</button>
+              </form>
+            </div>
+            <div class="header-top__contacts">
+              <a href="www.facebook.com"><img src="./img/bottomHeader/bx_bxl-facebook (1).svg" alt="facebook"
+                  class="contact contact__fb"></a>
+              <a href="www.instagram.com"><img src="./img/bottomHeader/bx_bxl-instagram (1).svg" alt="instagram"
+                  class="contact contact__inst"></a>
+              <a href="www.twitter.com"><img src="./img/bottomHeader/bx_bxl-twitter (1).svg" alt="twitter"
+                  class="contact contact__tw"></a>
+            </div>
+            <div class="header-top__background-img">
+              <img src="./img/bottomHeader/Illustration (1).png" alt="background-img">
+            </div>
+          </section>
+
+          <section class="main__tools tools">
+            <div class="tools__big-title">
+              <h2 class="tools__title">Most Popular Tools</h2>
+              <p class="tools__text">Tools for the best Designers and Developers <br>
+                most popularly used in the world</p>
+            </div>
+            <div class="tools__content-grid content-grid">
+
+              <div class="content-grid__first-block linear-gradient__back-block">
+                <div class="content-grid__block linear-gradient__forth-block">
+                  <div class="content-grid__title-flex">
+                    <img src="./img/tools/icons_figma.svg" alt="figma" class="title-flex__img">
+                    <div class="title-flex__content">
+                      <h3 class="title-flex__title">Figma</h3>
+                      <p class="title-flex__cost">free</p>
+                    </div>
+                  </div>
+                  <p class="content-grid__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <div class="content-grid__flex-link">
+                    <div class="flex-link__img">
+                      <div class="flex-link__block-like block-mini"><img src="./img/tools/VectorRed.svg" alt="like"
+                          class="flex-link__like"></div>
+                      <div class="flex-link__block-dowload block-mini"><img src="./img/tools/Groupdowload.svg"
+                          alt="dowload" class="flex-link__dowload"></div>
+                    </div>
+                    <button class="flex-link__button button">Visit</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="content-grid__first-block linear-gradient__back-block">
+                <div class="content-grid__block linear-gradient__forth-block">
+                  <div class="content-grid__title-flex">
+                    <img src="./img/tools/logos_sketch.svg" alt="sketch" class="title-flex__img">
+                    <div class="title-flex__content">
+                      <h3 class="title-flex__title">Sketch</h3>
+                      <p class="title-flex__cost">Trial & Paid</p>
+                    </div>
+                  </div>
+                  <p class="content-grid__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <div class="content-grid__flex-link">
+                    <div class="flex-link__img">
+                      <div class="flex-link__block-like block-mini"><img src="./img/tools/VectorRed.svg" alt="like"
+                          class="flex-link__like"></div>
+                      <div class="flex-link__block-dowload block-mini"><img src="./img/tools/Groupdowload.svg"
+                          alt="dowload" class="flex-link__dowload"></div>
+                    </div>
+                    <button class="flex-link__button button">Visit</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="content-grid__first-block linear-gradient__back-block">
+                <div class="content-grid__block linear-gradient__forth-block">
+                  <div class="content-grid__title-flex">
+                    <img src="./img/tools/logos_visual-studio-code.svg" alt="vscode" class="title-flex__img">
+                    <div class="title-flex__content">
+                      <h3 class="title-flex__title">Visual Studio Code</h3>
+                      <p class="title-flex__cost">Free</p>
+                    </div>
+                  </div>
+                  <p class="content-grid__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <div class="content-grid__flex-link">
+                    <div class="flex-link__img">
+                      <div class="flex-link__block-like block-mini"><img src="./img/tools/VectorRed.svg" alt="like"
+                          class="flex-link__like"></div>
+                      <div class="flex-link__block-dowload block-mini"><img src="./img/tools/Groupdowload.svg"
+                          alt="dowload" class="flex-link__dowload"></div>
+                    </div>
+                    <button class="flex-link__button button">Visit</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="content-grid__first-block linear-gradient__back-block">
+                <div class="content-grid__block linear-gradient__forth-block">
+                  <div class="content-grid__title-flex">
+                    <img src="./img/tools/notion.svg" alt="notion" class="title-flex__img">
+                    <div class="title-flex__content">
+                      <h3 class="title-flex__title">Notion</h3>
+                      <p class="title-flex__cost">Free & Paid</p>
+                    </div>
+                  </div>
+                  <p class="content-grid__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <div class="content-grid__flex-link">
+                    <div class="flex-link__img">
+                      <div class="flex-link__block-like block-mini"><img src="./img/tools/VectorRed.svg" alt="like"
+                          class="flex-link__like"></div>
+                      <div class="flex-link__block-dowload block-mini"><img src="./img/tools/Groupdowload.svg"
+                          alt="dowload" class="flex-link__dowload"></div>
+                    </div>
+                    <button class="flex-link__button button">Visit</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="content-grid__first-block linear-gradient__back-block">
+                <div class="content-grid__block linear-gradient__forth-block">
+                  <div class="content-grid__title-flex">
+                    <img src="./img/tools/Group.svg" alt="slack" class="title-flex__img">
+                    <div class="title-flex__content">
+                      <h3 class="title-flex__title">Slack</h3>
+                      <p class="title-flex__cost">Free & Paid</p>
+                    </div>
+                  </div>
+                  <p class="content-grid__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <div class="content-grid__flex-link">
+                    <div class="flex-link__img">
+                      <div class="flex-link__block-like block-mini"><img src="./img/tools/VectorRed.svg" alt="like"
+                          class="flex-link__like"></div>
+                      <div class="flex-link__block-dowload block-mini"><img src="./img/tools/Groupdowload.svg"
+                          alt="dowload" class="flex-link__dowload"></div>
+                    </div>
+                    <button class="flex-link__button button">Visit</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="content-grid__first-block linear-gradient__back-block">
+                <div class="content-grid__block linear-gradient__forth-block">
+                  <div class="content-grid__title-flex">
+                    <img src="./img/tools/logos_invision-icon.svg" alt="invisition" class="title-flex__img">
+                    <div class="title-flex__content">
+                      <h3 class="title-flex__title">Invision</h3>
+                      <p class="title-flex__cost">Free & Paid</p>
+                    </div>
+                  </div>
+                  <p class="content-grid__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <div class="content-grid__flex-link">
+                    <div class="flex-link__img">
+                      <div class="flex-link__block-like block-mini"><img src="./img/tools/VectorRed.svg" alt="like"
+                          class="flex-link__like"></div>
+                      <div class="flex-link__block-dowload block-mini"><img src="./img/tools/Groupdowload.svg"
+                          alt="dowload" class="flex-link__dowload"></div>
+                    </div>
+                    <button class="flex-link__button button">Visit</button>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="tools__block-button">
+              <button class="tools__button button" type="submit">Load more</button>
+            </div>
+          </section>
+
+          <section class="main__brand brand">
+            <div class="brand__rear-block linear-gradient__back-block">
+              <div class="brand__background-block linear-gradient__forth-block">
+                <h3 class="brand__title">Trusted more than 150+ brand</h3>
+                <div class="brand__flex-block">
+                  <div class="flex-block__brand"><a href="#" class="flex-block__brand-link logos__microsoft"><img
+                        src="./img/brand/logos_microsoft.svg" alt="microsoft"></a></div>
+                  <div class="flex-block__brand"><a href="#" class="flex-block__brand-link logos__google"><img
+                        src="./img/brand/logos_google.svg" alt="google"></a></div>
+                  <div class="flex-block__brand"><a href="#" class="flex-block__brand-link logos__slack"><img
+                        src="./img/brand/logos_slack.svg" alt="slack"></a></div>
+                  <div class="flex-block__brand"><a href="#" class="flex-block__brand-link logos__wordpress"><img
+                        src="./img/brand/logos_wordpress.svg" alt="wordpress"></a></div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="main__newcomer newcomer">
+            <div class="newcomer__flex">
+              <div class="newcomer__content">
+                <h2 class="newcomer__title">Newcomer Tools</h2>
+                <p class="newcomer__text">Wow! see the latest update of the most recommended tools from reliable
+                  designers and developers</p>
+                <button class="newcomer__link button button-orange">Explore more</button>
+              </div>
+              <div class="newcomer__tools-grid">
+
+                <div class="content-grid__first-block linear-gradient__back-block">
+                  <div class="content-grid__block-newcomer linear-gradient__forth-block">
+                    <div class="content-grid__title-flex">
+                      <img src="./img/newcomer/zeplin.svg" alt="vscode" class="title-flex__img">
+                      <div class="title-flex__content">
+                        <h3 class="title-flex__title">Zeplin</h3>
+                        <p class="title-flex__cost">Free & Paid</p>
+                      </div>
+                    </div>
+                    <p class="content-grid__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="content-grid__flex-link">
+                      <div class="flex-link__img">
+                        <div class="flex-link__block-like block-mini"><img src="./img/tools/VectorRed.svg" alt="like"
+                            class="flex-link__like"></div>
+                        <div class="flex-link__block-dowload block-mini"><img src="./img/tools/Groupdowload.svg"
+                            alt="dowload" class="flex-link__dowload"></div>
+                      </div>
+                      <button class="flex-link__button button">Visit</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="content-grid__first-block linear-gradient__back-block">
+                  <div class="content-grid__block-newcomer linear-gradient__forth-block">
+                    <div class="content-grid__title-flex">
+                      <img src="./img/newcomer/jb_phpstorm.svg" alt="notion" class="title-flex__img">
+                      <div class="title-flex__content">
+                        <h3 class="title-flex__title">PHPStorm</h3>
+                        <p class="title-flex__cost">Free</p>
+                      </div>
+                    </div>
+                    <p class="content-grid__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="content-grid__flex-link">
+                      <div class="flex-link__img">
+                        <div class="flex-link__block-like block-mini"><img src="./img/tools/VectorRed.svg" alt="like"
+                            class="flex-link__like"></div>
+                        <div class="flex-link__block-dowload block-mini"><img src="./img/tools/Groupdowload.svg"
+                            alt="dowload" class="flex-link__dowload"></div>
+                      </div>
+                      <button class="flex-link__button button">Visit</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="content-grid__first-block linear-gradient__back-block">
+                  <div class="content-grid__block-newcomer linear-gradient__forth-block">
+                    <div class="content-grid__title-flex">
+                      <img src="./img/newcomer/jb_toolbox_app.svg" alt="slack" class="title-flex__img">
+                      <div class="title-flex__content">
+                        <h3 class="title-flex__title">Toolbox</h3>
+                        <p class="title-flex__cost">Free</p>
+                      </div>
+                    </div>
+                    <p class="content-grid__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="content-grid__flex-link">
+                      <div class="flex-link__img">
+                        <div class="flex-link__block-like block-mini"><img src="./img/tools/VectorRed.svg" alt="like"
+                            class="flex-link__like"></div>
+                        <div class="flex-link__block-dowload block-mini"><img src="./img/tools/Groupdowload.svg"
+                            alt="dowload" class="flex-link__dowload"></div>
+                      </div>
+                      <button class="flex-link__button button">Visit</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="content-grid__first-block linear-gradient__back-block">
+                  <div class="content-grid__block-newcomer linear-gradient__forth-block">
+                    <div class="content-grid__title-flex">
+                      <img src="./img/newcomer/procreate.svg" alt="invisition" class="title-flex__img">
+                      <div class="title-flex__content">
+                        <h3 class="title-flex__title">Procreate</h3>
+                        <p class="title-flex__cost">Paid</p>
+                      </div>
+                    </div>
+                    <p class="content-grid__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="content-grid__flex-link">
+                      <div class="flex-link__img">
+                        <div class="flex-link__block-like block-mini"><img src="./img/tools/VectorRed.svg" alt="like"
+                            class="flex-link__like"></div>
+                        <div class="flex-link__block-dowload block-mini"><img src="./img/tools/Groupdowload.svg"
+                            alt="dowload" class="flex-link__dowload"></div>
+                      </div>
+                      <button class="flex-link__button button">Visit</button>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </section>
+
+          <section class="main__user user">
+
+
+
+            <div class="slider">
+              <div class="single-item">
+                <div class="user__block-for-me block-for-me">
+                  <div class="block-for-me__user-img">
+                    <div class="user-img__background-circle">
+                      <div class="background-circle__rear_porpal"></div>
+                      <div class="background-circle__rear_orange"></div>
+                      <div class="background-circle__one">
+                        <div class="background-circle__two"></div>
+                      </div>
+                    </div>
+                    <img src="./img/user/User.png" alt="" class="user-img__body">
+                    <div class="user-img__name">
+                      <h3 class="name__title">Ronald Richards</h3>
+                      <p class="name__profetion">Product Manager</p>
+                    </div>
+                  </div>
+                  <div class="block-for-me__quote">
+                    <div class="quote__img"><img src="./img/user/“.png" alt=""></div>
+                    <p class="quote__text">Incididunt cillum do sint sint enim ullamco id deserunt mollit qui
+                      reprehenderit
+                      do. Velit ex tempor cillum ad sint occaecat. Do nulla velit labore occaecat do deserunt Lorem
+                      magna
+                      officia incididunt consectetur amet. Sunt consectetur veniam minim ex commodo sint non. Occaecat
+                      aute
+                      officia excepteur non laboris id qui ad.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="single-item">
+                <div class="user__block-for-me block-for-me">
+                  <div class="block-for-me__user-img">
+                    <div class="user-img__background-circle">
+                      <div class="background-circle__rear_porpal"></div>
+                      <div class="background-circle__rear_orange"></div>
+                      <div class="background-circle__one">
+                        <div class="background-circle__two"></div>
+                      </div>
+                    </div>
+                    <img src="./img/user/User.png" alt="" class="user-img__body">
+                    <div class="user-img__name">
+                      <h3 class="name__title">Ronald Richards</h3>
+                      <p class="name__profetion">Product Manager</p>
+                    </div>
+                  </div>
+                  <div class="block-for-me__quote">
+                    <div class="quote__img"><img src="./img/user/“.png" alt=""></div>
+                    <p class="quote__text">Incididunt cillum do sint sint enim ullamco id deserunt mollit qui
+                      reprehenderit
+                      do. Velit ex tempor cillum ad sint occaecat. Do nulla velit labore occaecat do deserunt Lorem
+                      magna
+                      officia incididunt consectetur amet. Sunt consectetur veniam minim ex commodo sint non. Occaecat
+                      aute
+                      officia excepteur non laboris id qui ad.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="single-item">
+                <div class="user__block-for-me block-for-me">
+                  <div class="block-for-me__user-img">
+                    <div class="user-img__background-circle">
+                      <div class="background-circle__rear_porpal"></div>
+                      <div class="background-circle__rear_orange"></div>
+                      <div class="background-circle__one">
+                        <div class="background-circle__two"></div>
+                      </div>
+                    </div>
+                    <img src="./img/user/User.png" alt="" class="user-img__body">
+                    <div class="user-img__name">
+                      <h3 class="name__title">Ronald Richards</h3>
+                      <p class="name__profetion">Product Manager</p>
+                    </div>
+                  </div>
+                  <div class="block-for-me__quote">
+                    <div class="quote__img"><img src="./img/user/“.png" alt=""></div>
+                    <p class="quote__text">Incididunt cillum do sint sint enim ullamco id deserunt mollit qui
+                      reprehenderit
+                      do. Velit ex tempor cillum ad sint occaecat. Do nulla velit labore occaecat do deserunt Lorem
+                      magna
+                      officia incididunt consectetur amet. Sunt consectetur veniam minim ex commodo sint non. Occaecat
+                      aute
+                      officia excepteur non laboris id qui ad.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+          </section>
+
+          <section class="main__contributor contributor">
+            <div class="contributor__content ">
+              <h2 class="contributor__title">Become a contributor?</h2>
+              <p class="contributor__text">Join us and get tips & tricks to become a great <br> Designer and Developer
+              </p>
+              <form class="contributor__search search" action="#" method="get">
+                <div class="search__line-block">
+                  <input class="search__line" name="seaech" placeholder="Enter your email..." type="search">
+                </div>
+                <button class="contributor__button button button-orange" type="submit">Join Us</button>
+              </form>
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <hr>
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__copyright">
+            <a href="#" class="header__logo footer__logo">
+              <img src="./img/header/logo.svg" alt="logo">
+            </a>
+            <h3 class="copyright__title">Copyright 2021. Antools</h3>
+            <p class="copyright__text">Antool is a web collection of information on paid or free Design and Development
+              tools</p>
+          </div>
+          <div class="footer__footer-menu">
+            <div class="footer-menu__menu">
+              <h4 class="footer-menu__title">Contact Us</h4>
+              <a href="tel:+621987463" class="footer-menu__number footer-text">+621987463</a>
+              <a href="#" class="footer-menu__addres footer-text">M Building, No.10 A</a>
+              <a href="mailto:antools@awesome.com" class="footer-menu__email footer-text">antools@awesome.com</a>
+            </div>
+            <div class="footer-menu__menu">
+              <h4 class="footer-menu__title">Categories</h4>
+              <a href="#" class="footer-menu__design footer-text">Design</a>
+              <a href="#" class="footer-menu__development footer-text">Development</a>
+            </div>
+            <div class="footer-menu__menu">
+              <h4 class="footer-menu__title">Company Info</h4>
+              <a href="#" class="footer-menu__about footer-text">About Us</a>
+              <a href="#" class="footer-menu__partners footer-text">Our Partners</a>
+              <a href="#" class="footer-menu__blog footer-text">Blog</a>
+            </div>
+          </div>
+      </footer>
+
+
+    </div>
+  </div>
+  </div>
+
+</body>
+
+</html>
